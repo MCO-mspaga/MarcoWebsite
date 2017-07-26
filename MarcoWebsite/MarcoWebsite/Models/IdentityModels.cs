@@ -29,5 +29,7 @@ namespace MarcoWebsite.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MarcoWebsite.Models.Employment> Employments { get; set; }
     }
 }
